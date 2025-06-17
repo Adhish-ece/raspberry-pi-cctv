@@ -1,3 +1,4 @@
+#if camera is not opening change 0 to 1 in `cap = cv2.VideoCapture(0)`
 import RPi.GPIO as GPIO
 import time
 import cv2
