@@ -35,11 +35,14 @@ This project turns your Raspberry Pi into a simple security system using a PIR m
 
 ## 📦 Software Installation
 
-Install required dependencies on your Raspberry Pi:
+Install system dependencies:
 
 sudo apt update
 sudo apt install python3-opencv
-pip3 install RPi.GPIO discord.py
+
+Then install required Python packages from the provided requirements.txt:
+
+pip3 install -r requirements.txt
 
 ---
 
@@ -85,8 +88,9 @@ sudo python3 motion_bot.py
 ## 📂 Project Structure
 
 pi-motion-discord-bot/
-├── motion_bot.py     # Main script
-└── README.md         # Project documentation
+├── motion_bot.py         # Main script
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
 
 ---
 
