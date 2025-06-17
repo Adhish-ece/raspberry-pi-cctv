@@ -64,7 +64,7 @@ pip3 install -r requirements.txt
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/pi-motion-discord-bot.git
+git clone https://github.com/Adhish-ece/raspberry-pi-cctv.git
 cd pi-motion-discord-bot
 
 2. Open motion_bot.py and replace:
