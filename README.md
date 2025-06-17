@@ -74,6 +74,7 @@ cd pi-motion-discord-bot
 3. Run the script:
 
 sudo python3 motion_bot.py
+#if camera is not opening change 0 to 1 in `cap = cv2.VideoCapture(0)`
 
 ---
 
