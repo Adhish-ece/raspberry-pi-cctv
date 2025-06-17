@@ -10,7 +10,7 @@ This project turns your Raspberry Pi into a simple security system using a PIR m
 - Motion detection using a PIR sensor (GPIO2)
 - 5-second video recording with a USB webcam (OpenCV)
 - Automatic video upload to a Discord channel
-- Lightweight and works offline on a Raspberry Pi
+- Lightweight and works on a Raspberry Pi 3,4,5
 
 ---
 
